@@ -1,0 +1,28 @@
+.menu_icon
+{
+    color: #fff;
+    font-size: 30px;
+     display:none;
+}
+/* ......querry for small screen */
+@media screen and (max-width: 802px)
+{
+    .menu_icon
+    {
+        display: block;
+    }
+    nav .app_link a,nav .nav_items ul
+    {
+        display: none;
+    }
+    .content_wrapper h1
+    {
+       font-size: 1.5rem;
+    }
+    .content_wrapper img
+    {
+        width: 250px;
+    }
+    
+    
+}
